@@ -1,0 +1,6 @@
+# documentos do projeto requisitos
+*.docx
+# arquivos de armazenamento
+*.dat
+# executável
+locadora
