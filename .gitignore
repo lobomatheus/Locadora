@@ -2,5 +2,12 @@
 *.docx
 # arquivos de armazenamento
 *.dat
+*.dat.1
 # executável
 locadora
+# testes
+teste.cbl
+teste
+
+*.zip
+relatorios.cbl

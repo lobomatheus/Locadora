@@ -20,11 +20,10 @@
             02 LINE 4 COL 1 VALUE "- 1 - ESTOQUE:                 - |".
             02 LINE 5 COL 1 VALUE "- 2 - CLIENTES:                - |".
             02 LINE 6 COL 1 VALUE "- 3 - EMPRESTIMOS:             - |".
-            02 LINE 7 COL 1 VALUE "- 4 - RELATORIOS:              - |".
-            02 LINE 8 COL 1 VALUE "-                        0-SAIR- |".
-            02 LINE 9 COL 1 VALUE "-                              - |".
-            02 LINE 9 COL 30 PIC 9(1) TO WS-OPTION.
-            02 LINE 10 COL 1 VALUE "-------------------------------- |".
+            02 LINE 7 COL 1 VALUE "-                        0-SAIR- |".
+            02 LINE 8 COL 1 VALUE "-                              - |".
+            02 LINE 8 COL 30 PIC 9(1) TO WS-OPTION.
+            02 LINE 9 COL 1 VALUE "-------------------------------- |".
        PROCEDURE DIVISION.
        MAIN.
            DISPLAY MENU-SCREEN.
@@ -38,8 +37,6 @@
                    CALL 'CLIENTES'
                WHEN 3
                    CALL 'EMPRESTIMOS'
-               WHEN 4
-                   CALL 'RELATORIOS'
                WHEN OTHER
                    DISPLAY "OPCAO INVALIDA" AT LINE 12
                    DISPLAY "PRESSIONE QUALQUER TECLA" AT LINE 13
